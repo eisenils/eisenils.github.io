@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://kit.fontawesome.com/ba804563e2.js" crossorigin="anonymous"></script>
     <title>Nils Eisenhauer | Portfolio</title>
   </head>
   <body>
@@ -22,11 +23,16 @@
                   <h2 class="header-name">Nils Eisenhauer</h2>
                   <h5>Media student</h5>
                   <div class="social-icons">
-                    <a href=""><i class="fab fa-facebook icon"></i></a>
-                    <a href=""><i class="fab fa-twitter icon"></i></a>
-                    <a href=""><i class="fab fa-linkedin icon"></i></a>
-                    <a href=""><i class="fab fa-github icon"></i></a>
-                    <a href=""><i class="fab fa-instagram icon"></i></a>
+                    <a href="https://github.com/eisenils"><i class="fab fa-github icon"></i></a>
+                    <a href="https://www.xing.com/profile/Nils_Eisenhauer2"
+                      ><i class="fab fa-xing icon"></i
+                    ></a>
+                    <a href="https://de.linkedin.com/in/nils-eisenhauer-a6794717a"
+                      ><i class="fab fa-linkedin icon"></i
+                    ></a>
+                    <a href="https://www.instagram.com/eisenils/"
+                      ><i class="fab fa-instagram icon"></i
+                    ></a>
                   </div>
                   <div class="resume">
                     <a href="http://www.nils-eisenhauer.de" class="sidebar-link">
@@ -43,13 +49,20 @@
                   <div class="icon-btn min"></div>
                   <div class="icon-btn max"></div>
                   <div class="terminal-bar-text is-hidden-mobile dark-mode-text">
-                    page-title
+                    guest@eisenils
                   </div>
                 </div>
                 <div
                   class="terminal-window primary-bg"
                   onclick="document.getElementById('dummyKeyboard').focus();"
-                ></div>
+                >
+                  <div class="terminal-line">
+                    <span class="success">➜</span>
+                    <span class="directory">~</span>
+                    <span class="user-input" id="userInput"></span>
+                    <input type="text" id="dummyKeyboard" class="dummy-keyboard" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
