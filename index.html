@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="scripts.js"></script>
     <script src="https://kit.fontawesome.com/ba804563e2.js" crossorigin="anonymous"></script>
     <title>Nils Eisenhauer | Portfolio</title>
   </head>
@@ -56,6 +57,14 @@
                   class="terminal-window primary-bg"
                   onclick="document.getElementById('dummyKeyboard').focus();"
                 >
+                  <div class="terminal-output" id="terminalOutput">
+                    <div class="terminal-line">
+                      <span class="help-msg"
+                        >Welcome to my portfolio — Type <span class="code">help</span> for a list of
+                        supported commands.</span
+                      >
+                    </div>
+                  </div>
                   <div class="terminal-line">
                     <span class="success">➜</span>
                     <span class="directory">~</span>
