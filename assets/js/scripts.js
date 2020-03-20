@@ -30,7 +30,7 @@ const execute = function executeCommand(input) {
   }
   output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
   if (!COMMANDS.hasOwnProperty(input)) {
-    output += `<div class="terminal-line">${input} - command not found. Type help for available commands</div>`;
+    output += `<div class="terminal-line">${input} - command not found. Type <span class="code">help</span> for available commands</div>`;
   } else {
     output += COMMANDS[input];
   }
