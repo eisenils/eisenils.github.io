@@ -3,15 +3,14 @@ const COMMANDS = {
   help:
     'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
   about:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est",
+    "Hey 👋🏼, <br>my name is Nils and I'm a hobby developer. Since 2015 I'm watching web trends and code as a hobby. You want to know more about me? Type help to see the supported commands.",
   skills:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est",
+    '<span class="code">Languages:</span>  HTML, CSS, JavaScript<br><span class="code">Technologies:</span> Git<br><span class="code">Frameworks:</span> React.js',
   education:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est",
-  experience:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est",
+    '<span class="code">2018 - 2021</span>, Cooperative State University of Baden-Württemberg, Bachelor of Arts <br>',
+  experience: "Is building up 🔝",
   contact:
-    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est"
+    "You can write me an <a href='mailto:mail@nils-eisenhauer.de' class='success link'>email</a> or visit me on <a href='https://www.instagram.com/eisenils/' class='success link'>Instagram</a>.",
 };
 let userInput, terminalOutput;
 
